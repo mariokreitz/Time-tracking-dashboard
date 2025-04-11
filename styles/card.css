@@ -28,27 +28,27 @@
 }
 
 .card[data-category="work"] {
-  background-color: #ff8b64;
+  background-image: linear-gradient(to bottom, #ff8b64 50%, #0d1323 50%);
 }
 
 .card[data-category="play"] {
-  background-color: #56c2e6;
+  background-image: linear-gradient(to bottom, #56c2e6 50%, #0d1323 50%);
 }
 
 .card[data-category="study"] {
-  background-color: #ff5f7d;
+  background-image: linear-gradient(to bottom, #ff5f7d 50%, #0d1323 50%);
 }
 
 .card[data-category="exercise"] {
-  background-color: #4bcf83;
+  background-image: linear-gradient(to bottom, #4bcf83 50%, #0d1323 50%);
 }
 
 .card[data-category="social"] {
-  background-color: #7334d2;
+  background-image: linear-gradient(to bottom, #7334d2 50%, #0d1323 50%);
 }
 
 .card[data-category="self care"] {
-  background-color: #f1c75b;
+  background-image: linear-gradient(to bottom, #f1c75b 50%, #0d1323 50%);
 }
 
 .card-header img {
