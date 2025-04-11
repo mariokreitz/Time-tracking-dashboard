@@ -21,6 +21,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 1rem;
+  padding-bottom: 2.5rem;
 }
 
 .profile-info img {
@@ -39,4 +40,21 @@
   font-size: 2rem;
   line-height: 1.125;
   font-weight: 400;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.controls button {
+  color: #6b6dae;
+}
+
+.controls button.active,
+.controls button:hover {
+  color: white;
 }
