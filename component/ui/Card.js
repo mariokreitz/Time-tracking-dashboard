@@ -4,7 +4,7 @@ const Card = ({ title, image, timeframes }, time = "daily") => {
   const previousPeriod = time === "daily" ? "Yesterday" : time === "weekly" ? "Last Week" : "Last Month";
 
   return /*html*/ `
-    <section  data-category="${cardTitle}" class="card">
+    <article  data-category="${cardTitle}" class="card">
       <header  class="card-header">
         <img src="${image}" alt="${title}">
       </header>
@@ -13,7 +13,7 @@ const Card = ({ title, image, timeframes }, time = "daily") => {
         <p class="card-current">${current}hrs</p>
         <p class="card-previous">${previousPeriod} - ${previous}hrs</p>
       </div>
-    </section>
+    </article>
   `;
 };
 
