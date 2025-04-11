@@ -1,13 +1,17 @@
-const Card = (card, time = "daily") => {
+const Card = ({ title, image, timeframes }, time = "daily") => {
+  const cardTitle = title.toLowerCase();
+  const { current, previous } = timeframes[time];
+  const previousPeriod = time === "daily" ? "Yesterday" : time === "weekly" ? "Last Week" : "Last Month";
+
   return /*html*/ `
     <article class="card">
-      <header data-category="${card.title.toLowerCase()}" class="card-header">
-        <img src="${card.image}" alt="${card.title}">
+      <header data-category="${cardTitle}" class="card-header">
+        <img src="${image}" alt="${title}">
       </header>
       <div class="card-body">
-      <h2 class="card-title">${card.title}</h2>
-        <p class="card-current">${card.timeframes[time].current}hrs</p>
-        <p class="card-previous">Last Day - ${card.timeframes[time].previous}hrs</p>
+        <h2 class="card-title">${title} <img src="./images/icon-ellipsis.svg" alt="more"></h2>
+        <p class="card-current">${current}hrs</p>
+        <p class="card-previous">${previousPeriod} - ${previous}hrs</p>
       </div>
     </article>
   `;
