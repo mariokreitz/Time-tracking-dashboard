@@ -1,0 +1,57 @@
+.cards {
+  max-width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background-color: #1d204b;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 10rem;
+}
+
+.card-header {
+  display: flex;
+  justify-content: end;
+  overflow: hidden;
+  position: relative;
+  height: 1.75rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.card-header[data-category="work"] {
+  background-color: #ff8b64;
+}
+
+.card-header[data-category="play"] {
+  background-color: #56c2e6;
+}
+
+.card-header[data-category="study"] {
+  background-color: #ff5f7d;
+}
+
+.card-header[data-category="exercise"] {
+  background-color: #4bcf83;
+}
+
+.card-header[data-category="social"] {
+  background-color: #7334d2;
+}
+
+.card-header[data-category="self care"] {
+  background-color: #f1c75b;
+}
+
+.card-header img {
+  height: 2.5rem;
+  position: absolute;
+  top: -0.25rem;
+  right: 0.75rem;
+}
