@@ -4,6 +4,7 @@ import CardGrid from "./component/CardGrid.js";
 document.addEventListener("DOMContentLoaded", async () => {
   console.info("DOM loaded");
   const data = await fetchData("data.json");
+  console.log(data);
 
   let time = "daily";
   CardGrid(data, time);
