@@ -4,8 +4,8 @@ const Card = ({ title, image, timeframes }, time = "daily") => {
   const previousPeriod = time === "daily" ? "Yesterday" : time === "weekly" ? "Last Week" : "Last Month";
 
   return /*html*/ `
-    <article class="card">
-      <header data-category="${cardTitle}" class="card-header">
+    <article  data-category="${cardTitle}" class="card">
+      <header  class="card-header">
         <img src="${image}" alt="${title}">
       </header>
       <div class="card-body">
