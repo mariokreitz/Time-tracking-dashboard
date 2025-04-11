@@ -1,3 +1,7 @@
+:root {
+  --card-border-radius: 0.75rem;
+}
+
 .cards {
   max-width: fit-content;
   display: grid;
@@ -11,6 +15,8 @@
   flex-direction: column;
   justify-content: space-between;
   width: 10rem;
+  border-radius: var(--card-border-radius);
+  overflow: hidden;
 }
 
 .card-header {
@@ -19,8 +25,6 @@
   overflow: hidden;
   position: relative;
   height: 1.75rem;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
 }
 
 .card[data-category="work"] {
@@ -56,7 +60,7 @@
 
 .card-body {
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: var(--card-border-radius);
   cursor: pointer;
   background-color: #1d204b;
 }
