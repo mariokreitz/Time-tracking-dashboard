@@ -4,3 +4,49 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 45rem) {
+  .container {
+    min-height: 100dvh;
+  }
+
+  .dashboard {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .profile {
+    margin: 0.5rem;
+    width: unset;
+    min-width: 300px;
+  }
+
+  .profile-info {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 0;
+    padding: 1.5rem;
+  }
+
+  .profile-name > h1 {
+    font-size: 1.5rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    margin: 0.5rem;
+  }
+
+  .card {
+    width: unset;
+    min-width: 300px;
+  }
+
+  .controls {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+  }
+}
