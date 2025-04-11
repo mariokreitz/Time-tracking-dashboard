@@ -1,4 +1,4 @@
-# Frontend Mentor - Time tracking dashboard
+# Frontend Mentor - Time tracking dashboard [![Netlify Status](https://api.netlify.com/api/v1/badges/0f902088-73ea-4cbe-aafb-7f7b2e3b4318/deploy-status)](https://app.netlify.com/sites/sage-churros-d4f135/deploys)
 
 ![Design preview for the Time tracking dashboard coding challenge](./preview.jpg)
 
