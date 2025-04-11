@@ -1,0 +1,42 @@
+:root {
+  --profile-border-radius: 0.75rem;
+}
+
+.dashboard {
+  display: flex;
+}
+
+.profile {
+  background-color: #1d204b;
+  border-radius: var(--profile-border-radius);
+  margin: 1rem 0.5rem 1rem 1rem;
+  width: 10rem;
+}
+
+.profile-info {
+  background-color: #5746ea;
+  border-radius: var(--profile-border-radius);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.profile-info img {
+  height: 2.75rem;
+  width: 2.75rem;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.profile-name > p {
+  font-size: 0.75rem;
+  opacity: 50%;
+}
+
+.profile-name > h1 {
+  font-size: 2rem;
+  line-height: 1.125;
+  font-weight: 400;
+}
