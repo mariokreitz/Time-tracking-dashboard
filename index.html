@@ -4,15 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./styles/card.css" />
     <title>Frontend Mentor | Time tracking dashboard</title>
   </head>
   <body>
-    <button id="daily" class="active" type="button">Daily</button>
-    <button id="weekly" type="button">Weekly</button>
-    <button id="monthly" type="button">Monthly</button>
-    <div class="cards"></div>
+    <main class="container">
+      <div class="profile-container">
+        <aside class="profile">
+          <img src="./images/image-jeremy.png" alt="Jeremy Robson" />
+          <div class="profile-name">
+            <p>Report for</p>
+            <h1>Jeremy Robson</h1>
+          </div>
+        </aside>
+        <article class="cards" role="region" aria-label="Time tracking cards"></article>
+      </div>
+    </main>
     <script type="module" src="index.js"></script>
   </body>
 </html>
