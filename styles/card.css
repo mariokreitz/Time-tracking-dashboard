@@ -7,7 +7,6 @@
 }
 
 .card {
-  background-color: #1d204b;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -24,27 +23,27 @@
   border-top-right-radius: 0.5rem;
 }
 
-.card-header[data-category="work"] {
+.card[data-category="work"] {
   background-color: #ff8b64;
 }
 
-.card-header[data-category="play"] {
+.card[data-category="play"] {
   background-color: #56c2e6;
 }
 
-.card-header[data-category="study"] {
+.card[data-category="study"] {
   background-color: #ff5f7d;
 }
 
-.card-header[data-category="exercise"] {
+.card[data-category="exercise"] {
   background-color: #4bcf83;
 }
 
-.card-header[data-category="social"] {
+.card[data-category="social"] {
   background-color: #7334d2;
 }
 
-.card-header[data-category="self care"] {
+.card[data-category="self care"] {
   background-color: #f1c75b;
 }
 
@@ -57,7 +56,13 @@
 
 .card-body {
   padding: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: #1d204b;
+}
+
+.card-body:hover {
+  background-color: #282a4f;
 }
 
 .card-title {
@@ -73,7 +78,6 @@
 
 .card-current {
   font-size: 2rem;
-  font-weight: 700;
   margin: 0.5rem 0;
 }
 
