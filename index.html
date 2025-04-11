@@ -7,20 +7,31 @@
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./styles/card.css" />
+    <link rel="stylesheet" href="./styles/dashbord.css" />
     <title>Frontend Mentor | Time tracking dashboard</title>
   </head>
   <body>
     <main class="container">
-      <div class="profile-container">
+      <section class="dashboard">
         <aside class="profile">
-          <img src="./images/image-jeremy.png" alt="Jeremy Robson" />
-          <div class="profile-name">
-            <p>Report for</p>
-            <h1>Jeremy Robson</h1>
+          <div class="profile-info">
+            <img src="./images/image-jeremy.png" alt="Jeremy Robson" />
+            <div class="profile-name">
+              <p>Report for</p>
+              <h1>Jeremy Robson</h1>
+            </div>
+          </div>
+          <div class="controls">
+            <button id="daily" class="active" type="button">Daily</button>
+            <button id="weekly" type="button">Weekly</button>
+            <button id="monthly" type="button">Monthly</button>
           </div>
         </aside>
-        <article class="cards" role="region" aria-label="Time tracking cards"></article>
-      </div>
+
+        <section class="cards" aria-label="Time tracking cards">
+          <!-- Cards will be inserted here by JavaScript -->
+        </section>
+      </section>
     </main>
     <script type="module" src="index.js"></script>
   </body>
