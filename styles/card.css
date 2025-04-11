@@ -8,7 +8,6 @@
 
 .card {
   background-color: #1d204b;
-  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -54,4 +53,30 @@
   position: absolute;
   top: -0.25rem;
   right: 0.75rem;
+}
+
+.card-body {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.card-title img {
+  height: 0.2rem;
+}
+
+.card-current {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.card-previous {
+  font-size: 0.75rem;
 }
