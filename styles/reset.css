@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #dfdff9;
+  background-color: #0d1323;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+  outline: none;
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* Remove extra margin and padding in IE 10/11 */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Remove extra margin and padding in Firefox */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* Remove default fieldset styles */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default legend styles */
+legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal;
+}
+
+/* Add the correct vertical alignment in Chrome, Firefox, and Opera */
+progress {
+  vertical-align: baseline;
+}
+
+/* Remove the default vertical scrollbar in IE */
+textarea {
+  overflow: auto;
+}
+
+/* Improve readability of pre-formatted text in all browsers */
+pre {
+  font-family: monospace, monospace;
+  font-size: inherit;
+}
+
+/* Improve consistency of default fonts in form controls */
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Remove default animation on focus for form controls in Safari */
+input,
+textarea,
+select,
+button {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+/* Remove glow on radio buttons in Safari */
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove default outline styles in Firefox */
+input:-moz-focusring {
+  outline: none;
+}
+
+/* Remove default outline styles in IE */
+input::-ms-clear {
+  display: none;
+}
+
+/* Remove default outline styles in Safari */
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+  display: none;
+}
+
+/* Remove default outline styles in Chrome */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
